@@ -4,11 +4,13 @@
 */
 
 body {
-	background-color: grey;
+	background-color: white;
 }
 
 .main-content {
-	background-color: pink;
+	background-color: #dedede;
+	border: 1px solid;
+	border-radius: 2% 2% 0px 0px;
 	height: 800px;
 	width: 800px;
 	margin:auto;
@@ -16,39 +18,64 @@ body {
 
 nav{
 	margin:auto;
-
 	width:500px;
-	height:30px;
+	height:35px;
 }
 nav ul {
 	padding:0;
 
 } 
 nav ul li {
+	width:32%;
 	display:inline-block;
+	text-align:center;
+	line-height: 35px;
+	text-decoration: none;
+	border-bottom: 0px solid transparent;
+
+}
+
+nav ul li:hover {
+	opacity: 0.7;
+	transform: scale(1.2);
+	border-bottom: 1px solid black;
+	transition: width 2s, ease;
 
 }
 
 .middle-page {
 	background-color: yellow;
-	height:500px;
+	height:550px;
 	width:550px;
 	margin:auto;
+	text-align:center;
 }
-
 .profile-picture {
-	height:200px;
-	width:250px;
+	height:48%;
+	width:48%;
 	display:inline-block;
 	background-color:blue;
+	border-width: 20px;
+	border-radius: 100%;
 
 
 }
 
 .right-side {
-	height:200px;
-	width:250px;
+	height:48%;
+	width:48%;
 	display:inline-block;
 	background-color: red;
+
+}
+
+.general-info {
+	height:48%;
+	width:97%;
+	background-color: orange;
+	display:inline-block;
+	margin: auto;
+	text-align: center;
+
 
 }
