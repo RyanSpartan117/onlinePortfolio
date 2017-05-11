@@ -1,0 +1,54 @@
+/*
+# = id
+. = class
+*/
+
+body {
+	background-color: grey;
+}
+
+.main-content {
+	background-color: pink;
+	height: 800px;
+	width: 800px;
+	margin:auto;
+}
+
+nav{
+	margin:auto;
+
+	width:500px;
+	height:30px;
+}
+nav ul {
+	padding:0;
+
+} 
+nav ul li {
+	display:inline-block;
+
+}
+
+.middle-page {
+	background-color: yellow;
+	height:500px;
+	width:550px;
+	margin:auto;
+}
+
+.profile-picture {
+	height:200px;
+	width:250px;
+	display:inline-block;
+	background-color:blue;
+
+
+}
+
+.right-side {
+	height:200px;
+	width:250px;
+	display:inline-block;
+	background-color: red;
+
+}
