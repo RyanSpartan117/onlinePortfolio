@@ -28,9 +28,11 @@ Please feel free to send donations to <rchapman@spartaglobal.co>. Or send your a
 
 **Things you can send me**  
 
--Complete works of Vincent Van Gogh  
--Mouse traps  
--String  
+- Complete works of Vincent Van Gogh
+- Mouse traps
+- String
 
 
-*Money
+* Money
+* More Money
+* Honestly, i'm poor
