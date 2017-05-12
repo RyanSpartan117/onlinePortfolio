@@ -34,7 +34,7 @@ HTML Link:
 
 ## Technologies Used
 
-The website has been made using a mix of HTML and CSS, with JavaScript functions on the horizon.  
+The website has been made using a mix of HTML and CSS, with JavaScript functions on the horizon. I use Git and GitHub as my version control for the website.
 
 Currently, the website is in the layout phase, with most focus going on the Navigation Bar functionality.
 in
