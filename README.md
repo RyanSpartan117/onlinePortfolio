@@ -4,12 +4,20 @@
 
 This is the **README** file for Ryan Chapman's online portfolio.
 
-###Stuff to look out for
+###Getting Set Up
 
-cloning the repo with the following command:  
+You can use the following command to clone the website.  
+
+HTML Link:
 
 ```bash
-	git clone onlineProfile.git classwork	
+	https://github.com/RyanSpartan117/onlinePortfolio.git	
+```
+
+SSH Link:
+
+```bash
+	git@github.com:RyanSpartan117/onlinePortfolio.git
 ```
 
 ## Project Examples
@@ -31,8 +39,6 @@ Please feel free to send donations to <rchapman@spartaglobal.co>. Or send your a
 - Complete works of Vincent Van Gogh
 - Mouse traps
 - String
-
-
 * Money
 * More Money
 * Honestly, i'm poor
