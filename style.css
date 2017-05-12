@@ -72,7 +72,7 @@ nav ul li a:hover:before {
 
 }
 
-*/
+
 .middle-page {
 	height:750px;
 	width:750px;
@@ -86,8 +86,6 @@ nav ul li a:hover:before {
 	background-color:blue;
 	border: 1px dashed black;
 	border-radius: 100%;
-
-
 }
 
 .right-side {
