@@ -37,7 +37,7 @@ HTML Link:
 The website has been made using a mix of HTML and CSS, with JavaScript functions on the horizon.  
 
 Currently, the website is in the layout phase, with most focus going on the Navigation Bar functionality.
-
+in
 ![currentLayout](layoutPhase.png)
 
 As you can see, it's beautiful.

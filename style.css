@@ -27,6 +27,16 @@ nav ul {
 
 } 
 
+
+nav ul li {
+	width:24%;
+	display:inline-block;
+	text-align:center;
+	line-height: 35px;
+
+}
+
+
 nav ul li a {
 	position:relative;
 	color: #000;
@@ -42,6 +52,19 @@ nav ul li a:hover {
 
 
 }
+
+nav ul li a:before {
+	font-family: Tahoma;
+	font-size: 10px;
+
+}
+
+nav ul li a:after {
+	font-family: sans-serif, times;
+	font-size: 20px;
+
+}
+
 /*
 nav ul li a:before {
 
@@ -70,14 +93,6 @@ nav ul li a:after {
 
 }
 */
-nav ul li {
-	width:32%;
-	display:inline-block;
-	text-align:center;
-	line-height: 35px;
-
-}
-
 .middle-page {
 	height:750px;
 	width:750px;
