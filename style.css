@@ -16,9 +16,6 @@ body {
 
 
 .main-content {
-	/*background: linear-gradient(#f5f5f5, #d9d9d9);*/
-	/*border: 1px solid;*/
-	/*border-radius: 4% 4% 0px 0px;*/
 	height: 900px;
 	width: 80%;
 	margin:auto;
@@ -85,6 +82,8 @@ nav ul li a:hover:before {
 	margin:auto;
 	text-align:center;
 	margin-top: 35px;
+	text-shadow: 0px 0px 10px black;
+
 }
 
 .profile-picture {
@@ -93,21 +92,11 @@ nav ul li a:hover:before {
 	display:inline-block;
 	background-image: url(images/placeholderPhoto.png);
 	background-size: cover;
-	/*background-size: 100% 100%;*/
 	background-repeat: no-repeat;
 	border-radius: 50%;
 	margin:auto;
 }
 
-/*
-.right-side {
-	height:48%	;
-	width:48%;
-	display:inline-block;
-	background-color: red;
-
-}
-*/
 
 .general-info {
 	height:370px;
@@ -129,7 +118,7 @@ nav ul li a:hover:before {
 }
 
 .general-info ul li {
-	
+
 	margin-top:10px;
 }
 

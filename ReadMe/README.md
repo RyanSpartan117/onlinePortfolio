@@ -36,8 +36,8 @@ HTML Link:
 
 The website has been made using a mix of HTML and CSS, with JavaScript functions on the horizon. I use Git and GitHub as my version control for the website.
 
-Currently, the website is in the layout phase, with most focus going on the Navigation Bar functionality.
-in
+As of 12/05, the website is in the layout phase, with most focus going on the Navigation Bar functionality.
+
 ![currentLayout](layoutPhase.png)
 
 As you can see, it's beautiful.
@@ -52,6 +52,12 @@ The "End Goal" is a sleek, minimalistic website with a snapshot of credentials a
 
 I'll probably change my mind next week, though.
 
+
+
+List of things to implement:  
+
+* Position:fixed on the navBar. Own background with opacity set to around 0.5. Potential Logo in top left.
+* content in pages
 
 
 
