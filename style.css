@@ -5,7 +5,7 @@
 
 body {
 
-	background-image: url(images/treeBackground.jpg);
+	background-image: url(images/tileBackground.jpg);
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -67,8 +67,8 @@ nav ul li a:before {
 	height:2px;
 	background-color: #FFF;
 	visibility:hidden;
-	-webkit-transition: all 3s;
-	transition: all 3s;
+	-webkit-transition: all 1.3s;
+	transition: all 1.3s;
 	-webkit-transform: scaleX(0);
 	transform: scaleX(0);
 }
@@ -84,6 +84,7 @@ nav ul li a:hover:before {
 	width:750px;
 	margin:auto;
 	text-align:center;
+	margin-top: 35px;
 }
 
 .profile-picture {
@@ -99,7 +100,7 @@ nav ul li a:hover:before {
 
 /*
 .right-side {
-	height:48%;
+	height:48%	;
 	width:48%;
 	display:inline-block;
 	background-color: red;
@@ -110,32 +111,26 @@ nav ul li a:hover:before {
 .general-info {
 	height:370px;
 	width:97%;
-	border: 2px white solid;
 	display:inline-block;
 	margin: auto;
-	margin-top: 20px;
 
 }
 
 #nameGeneral {
-	text-align: left;
-}
-
-.general-info > h1 {
-	margin-left: 20%;
-
+	font-size: 45px;
+	margin-top: 15px;
+	margin-bottom:15px;
 }
 
 .general-info ul {
 	list-style: none;
-	text-align: left;
-
+	margin-right: 12%;
 }
 
 .footerNav {
 	margin-left: 15%;
 	height:30px;
-	width:55%;
+	width:50%;
 
 }
 
@@ -147,4 +142,35 @@ nav ul li a:hover:before {
 
 	display: inline-block;
 	width: 30%;
+}
+
+.footerNav ul li a {
+
+	position: absolute;
+	color: #FFF;
+	text-decoration: none;
+}
+.footerNav ul li a:hover {
+	opacity: 0.8;
+
+}
+.footerNav ul li a:before {
+	content: "";
+	position: absolute;
+	top: 20px;
+	width:100%;
+	height:2px;
+	background-color: #FFF;
+	visibility:hidden;
+	-webkit-transition: all 1.3s;
+	transition: all 1.3s;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+}
+
+.footerNav ul li a:hover:before {
+
+	content:"";
+	visibility: visible;
+	transform: scaleX(1);
 }
