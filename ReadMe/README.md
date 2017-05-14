@@ -40,7 +40,14 @@ As of 12/05, the website is in the layout phase, with most focus going on the Na
 
 ![currentLayout](layoutPhase.png)
 
-As you can see, it's beautiful.
+As you can see, it's beautiful.  
+
+From there, I changed the layout to not include the red section, and focused on a profile picture with brief information underneath.  
+I went with a white/black theme, and added a dark background, some dummy cotent and a working, styled navBar and footer.  
+
+As of 14/05:  
+
+![siteLayoutProgress](siteProgress1.png)
 
 ###Future Website Endeavours and Thought Process
 
@@ -56,7 +63,7 @@ I'll probably change my mind next week, though.
 
 List of things to implement:  
 
-* Position:fixed on the navBar. Own background with opacity set to around 0.5. Potential Logo in top left.
+* ~~Position:fixed on the navBar. Own background with opacity set to around 0.5.~~ Potential Logo in top left.
 * content in pages
 
 
