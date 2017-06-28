@@ -95,9 +95,14 @@ a:visited {
 	color: white;
 }
 
+a:hover {
+
+	opacity: 0.6;
+
+}
+
 
 .middle-page {
-	height:550px;
 	width:750px;
 	margin:auto;
 	text-align:center;	
@@ -116,7 +121,11 @@ a:visited {
 	margin-top: 8%;
 }
 
+#nameGeneral {
 
+	text-shadow: 34px 13px 3px black;
+
+}
 .general-info {
 	height:370px;
 	width:97%;
@@ -170,6 +179,37 @@ ol, ul {
 	margin-top:10px;
 }
 
+#Brew {
+
+	text-align: center;
+	vertical-align: top;
+	text-shadow: none;
+	height:200px;
+	width:68%;
+	display: inline-block;
+
+
+
+}
+
+#Brew-section {
+	height:200px;
+	width:30%;
+	display:inline-block;
+
+}
+#Brew-title {
+	text-align: center;
+}
+
+#Brew-git {
+
+	margin:0;
+	text-align: center;
+}
+
+/*
+
 .footerNav {
 	margin-left: 15%;
 	height:30px;
@@ -216,4 +256,4 @@ ol, ul {
 	content:"";
 	visibility: visible;
 	transform: scaleX(1);
-}
+}*/
